@@ -1,0 +1,16 @@
+PODS:
+  - MSNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - MSNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  MSNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSNavigationController: 50beeb64593b4e1a71907f89170fb2cdc542ebc3
+
+PODFILE CHECKSUM: ec451761a6e515ad7e102de3b86a29bba7cf73f3
+
+COCOAPODS: 1.11.3

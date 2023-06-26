@@ -15,6 +15,10 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8C4C06C5BCB754051B0EB2E7 /* Pods_MSNavigationController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B32FBE68062A25D7EA037D /* Pods_MSNavigationController_Example.framework */; };
+		F3E7AC792A49344B001BCD81 /* DLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7AC782A49344A001BCD81 /* DLNavigationController.swift */; };
+		F3E7AC7C2A4934A9001BCD81 /* Image+cc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7AC7A2A4934A9001BCD81 /* Image+cc.swift */; };
+		F3E7AC7D2A4934A9001BCD81 /* Color+cc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7AC7B2A4934A9001BCD81 /* Color+cc.swift */; };
+		F3E7AC7F2A4936BD001BCD81 /* Bundle+dl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7AC7E2A4936BD001BCD81 /* Bundle+dl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +45,15 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		83425334860699EBCE08687D /* Pods-MSNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSNavigationController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MSNavigationController_Tests/Pods-MSNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8D65B66771D7F18704956928 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		927F7C5214027E3572C56164 /* MSNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MSNavigationController.podspec; path = ../MSNavigationController.podspec; sourceTree = "<group>"; };
+		8D65B66771D7F18704956928 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		927F7C5214027E3572C56164 /* MSNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSNavigationController.podspec; path = ../MSNavigationController.podspec; sourceTree = "<group>"; };
 		957DDA9403284339A51EABF8 /* Pods-MSNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSNavigationController_Tests.release.xcconfig"; path = "Target Support Files/Pods-MSNavigationController_Tests/Pods-MSNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9980389BA47376242C0972B3 /* Pods-MSNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSNavigationController_Example.release.xcconfig"; path = "Target Support Files/Pods-MSNavigationController_Example/Pods-MSNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E60B2FDA04CDF609201ECF2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E60B2FDA04CDF609201ECF2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F3E7AC782A49344A001BCD81 /* DLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNavigationController.swift; sourceTree = "<group>"; };
+		F3E7AC7A2A4934A9001BCD81 /* Image+cc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+cc.swift"; sourceTree = "<group>"; };
+		F3E7AC7B2A4934A9001BCD81 /* Color+cc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+cc.swift"; sourceTree = "<group>"; };
+		F3E7AC7E2A4936BD001BCD81 /* Bundle+dl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+dl.swift"; sourceTree = "<group>"; };
 		FF82D8CCD9DF28588D7331BF /* Pods_MSNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +94,6 @@
 				83425334860699EBCE08687D /* Pods-MSNavigationController_Tests.debug.xcconfig */,
 				957DDA9403284339A51EABF8 /* Pods-MSNavigationController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,6 +121,10 @@
 		607FACD21AFB9204008FA782 /* Example for MSNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				F3E7AC7E2A4936BD001BCD81 /* Bundle+dl.swift */,
+				F3E7AC7B2A4934A9001BCD81 /* Color+cc.swift */,
+				F3E7AC7A2A4934A9001BCD81 /* Image+cc.swift */,
+				F3E7AC782A49344A001BCD81 /* DLNavigationController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -227,6 +238,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -332,7 +344,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				F3E7AC7C2A4934A9001BCD81 /* Image+cc.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				F3E7AC792A49344B001BCD81 /* DLNavigationController.swift in Sources */,
+				F3E7AC7D2A4934A9001BCD81 /* Color+cc.swift in Sources */,
+				F3E7AC7F2A4936BD001BCD81 /* Bundle+dl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MSNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MSNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +534,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +553,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

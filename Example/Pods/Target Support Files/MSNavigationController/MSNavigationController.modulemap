@@ -1,0 +1,6 @@
+framework module MSNavigationController {
+  umbrella header "MSNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
