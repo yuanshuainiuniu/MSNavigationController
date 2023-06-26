@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "f65d1f707c8507d82811a328a99b05f0a75a3c469663a3a883f4ca051a694401"
+build_start_time: [1687750705, 51802000]
+build_end_time: [1687750705, 201323000]
+inputs:
+  "/Users/marshal/Documents/GitHub/MSNavigationController/MSNavigationController/Classes/MSNavigationController.swift": !dirty [1687750699, 973940348]

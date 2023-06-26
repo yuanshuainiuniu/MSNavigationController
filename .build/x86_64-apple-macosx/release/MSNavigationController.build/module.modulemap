@@ -1,0 +1,4 @@
+module MSNavigationController {
+    header "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/MSNavigationController-Swift.h"
+    requires objc
+}

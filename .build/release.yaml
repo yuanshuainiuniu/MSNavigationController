@@ -1,0 +1,42 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "MSNavigationController-release.module": ["<MSNavigationController-release.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<MSNavigationController-release.module>"]
+  "test": ["<MSNavigationController-release.module>"]
+default: "main"
+nodes:
+  "/Users/marshal/Documents/GitHub/MSNavigationController/MSNavigationController/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "<MSNavigationController-release.module>":
+    tool: phony
+    inputs: ["/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/Classes/MSNavigationController.swift.o","/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.swiftmodule"]
+    outputs: ["<MSNavigationController-release.module>"]
+
+  "C.MSNavigationController-release.module":
+    tool: swift-compiler
+    inputs: ["/Users/marshal/Documents/GitHub/MSNavigationController/MSNavigationController/Classes/MSNavigationController.swift"]
+    outputs: ["/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/Classes/MSNavigationController.swift.o","/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "MSNavigationController"
+    module-output-path: "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.swiftmodule"
+    import-paths: ["/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release"]
+    temps-path: "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build"
+    objects: ["/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/Classes/MSNavigationController.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.13","-swift-version","4.2","-O","-g","-j8","-DSWIFT_PACKAGE","-module-cache-path","/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/MSNavigationController-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"]
+    sources: ["/Users/marshal/Documents/GitHub/MSNavigationController/MSNavigationController/Classes/MSNavigationController.swift"]
+    is-library: true
+    enable-whole-module-optimization: true
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/marshal/Documents/GitHub/MSNavigationController/MSNavigationController/","/Users/marshal/Documents/GitHub/MSNavigationController/Package.swift","/Users/marshal/Documents/GitHub/MSNavigationController/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

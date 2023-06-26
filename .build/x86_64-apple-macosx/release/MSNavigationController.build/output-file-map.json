@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/MSNavigationController.d",
+    "object": "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/MSNavigationController.o",
+    "swift-dependencies": "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/master.swiftdeps"
+  },
+  "/Users/marshal/Documents/GitHub/MSNavigationController/MSNavigationController/Classes/MSNavigationController.swift": {
+    "object": "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/Classes/MSNavigationController.swift.o",
+    "swiftmodule": "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/Classes/MSNavigationController~partial.swiftmodule",
+    "swift-dependencies": "/Users/marshal/Documents/GitHub/MSNavigationController/.build/x86_64-apple-macosx/release/MSNavigationController.build/Classes/MSNavigationController.swiftdeps"
+  }
+}
